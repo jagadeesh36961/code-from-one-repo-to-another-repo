@@ -1,0 +1,20 @@
+127  git clone https://github.com/jagadeesh36961/cft3.git
+  128  cd cft3
+  129  touch f1 f2 f3 f4 f5
+  130  vim f1 f2
+  131  vim f3
+  132  vim f4 f5
+  133  ls
+  134  git add .
+  135  git status
+  136  git commit -m "all 5 files"
+  137  git push origin master
+  138  git remote -v
+  139  git remote rm origin
+  140  git remote -v
+  141  git remote add origin https://github.com/jagadeesh36961/cft4.git
+  142  git remote -v
+  143  git fetch
+  144  git push origin --all
+  145  git push -f origin master
+  146  history
